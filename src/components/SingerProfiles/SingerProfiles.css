@@ -1,0 +1,75 @@
+/* SingerProfiles.css */
+
+.singer-profiles-container {
+  text-align: center;
+  padding: 10px;
+}
+
+.singer-profiles-container h2{
+  color: #fff;
+  margin-bottom: 20px;
+
+}
+
+.singer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.singer-card {
+  width: 200px;
+  margin: 20px;
+  padding: 15px;
+  color: white;
+  background-color: #121212;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.singer-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* animation */
+  background-color: #00000058;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.singer-card-image img {
+  border-radius: 50% ;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+  object-fit: cover;
+}
+
+.singer-card-info {
+  padding: 10px 0;
+}
+
+.singer-card-info h3 {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.singer-card-info p {
+  margin: 0;
+  color: #888;
+}
+
+@media (max-width: 768px) {
+  .singer-card {
+    width: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .singer-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+}

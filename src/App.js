@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="app-container">
-      <h1>React Music App</h1>
+      <h1>Track Finder App</h1>
       <SongSearch />
     </div>
   );
