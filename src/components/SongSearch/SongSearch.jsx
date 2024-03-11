@@ -53,7 +53,7 @@ const SongSearch = () => {
         <div className="searchBox">
           <input
             type="text"
-            placeholder="Search for a song..."
+            placeholder="Search for a track..."
             className="searchInput"
             value={searchTerm}
             onChange={handleChange}
